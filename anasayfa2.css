@@ -1,0 +1,212 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar
+{
+	background-image: linear-gradient(to right, #b8660f, #ed8b21);
+	padding: 0 !important;
+}
+.navbar-brand:hover{
+	color: red;
+}
+.navbar-brand img
+{
+	height: 20px;
+	width: 40px;
+	padding-left: 20px;
+	transition: 1s;
+}
+.navbar-brand img:hover{
+	transition: 1s;
+	margin-right: 10px;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  	filter: grayscale(100%);
+}
+.navbar-nav li
+{
+padding: 0 10px;
+}
+.navbar-nav li a{
+	color: #fff !important;
+	font-weight: 600;
+}
+.fa-bars
+{
+	color: #fff;
+	font-size: 30px !important;
+}
+.fa-bars:hover{
+	color: black;
+}
+.navbar-toggler
+{
+	outline: none !important;
+}
+.nav-link
+{
+	transition: 0.5s;
+	border-radius: 10px;
+	font-family: sans-serif;
+}
+.nav-link:hover
+{
+	text-decoration: underline;
+	background-color: #C7781D;
+	border-bottom: 2px solid white;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+/* Banner bolumu */
+
+#banner
+{
+	background-image: linear-gradient(to right, #b8660f, #ed8b21);
+	color: #fff;
+	padding-top: 5%;
+}
+.promo-tittle
+{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 100px;
+}
+.bottom-img
+{
+	width: 100%;
+}
+#banner .btn
+{
+	color: black;
+	transition: 1.0s;
+	background-image: linear-gradient(to right, #d5d5d5, #ffffff);
+}
+#banner .btn a
+{
+	color: black;
+	transition: 0.5s;
+}
+#banner .btn:hover a
+{
+	text-decoration: none;
+	color: white;
+	transition: 0.5s;
+}
+#banner .btn:hover
+{
+	transition: 1.0s;
+	background-image: linear-gradient(to right, #000000, #363636);
+}
+
+
+/* Bilgi */
+
+#bilgi
+{
+	padding: 80px 0;
+
+}
+.bilgi1
+{
+	width: 100px;
+	margin-top: 30px;
+}
+#bilgi .bilgi h4
+{
+	padding: 5px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+.tittle::before
+{
+height: 5px;
+width: 20px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+
+}
+.tittle::after
+{
+height: 5px;
+width: 20px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 40px;
+display: block;
+
+}
+
+#bilgi .btn-primary
+{
+	box-shadow: none;
+	padding: 8px 25px;
+	border: none;
+	border-radius: 20px;
+	transition: 0.5s;
+	background-image: linear-gradient(to right, #b8660f, #ed8b21);
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-top: 10px;
+}
+
+#bilgi .btn-primary:hover
+{
+    transition: 0.5s;
+	background-image: linear-gradient(to right, #ed8b21, #b8660f);
+
+}
+#bilgi .btn-primary:hover a{
+	color: #d2d2d2;
+}
+
+#bilgi .bilgi
+{
+	border-radius: 5px;
+	transition: 0.6s;
+	padding: 20px;
+	border: 0px orange solid;
+}
+#bilgi .bilgi:hover
+{
+	background: #ececec;
+	border-radius: 10px;
+	border: 1px orange solid;
+	transition: 0.5s;
+}
+#bilgi .bilgi img{
+	transition: 0.5s;
+}
+#bilgi .bilgi:hover img{
+	margin-top: 5px;
+	transition: 0.5s;
+}
+#bilgi .btn a
+{
+	color: white;
+	text-decoration: none;
+}
+
+/* Footer */
+
+footer{
+	background: #222;
+	padding: 10px;
+	padding-right: 20px;
+}
+.copy{
+	padding-top: 50px;
+}
+
+/* */
+button.upbtn:hover{
+	background: white;
+	border: 2px solid red;
+}

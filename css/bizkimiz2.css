@@ -1,0 +1,69 @@
+body{
+	background-image: url("img/navlogo2.png");
+}
+.nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar
+{
+	background-image: linear-gradient(to right, #b8660f, #ed8b21);
+	padding: 0 !important;
+}
+.navbar-brand
+{
+	transition: 1s;
+	border-radius: 10px;
+}
+
+.navbar-brand:hover{
+
+}
+.navbar-brand img
+{
+	transition: 1s;
+	height: 50px;
+	width: 70px;
+	padding-left: 20px;
+}
+.navbar-brand img:hover{
+	transition: 1s;
+	margin-right: 10px;
+	  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.navbar-nav li
+{
+padding: 0 10px;
+}
+.navbar-nav li a{
+	color: #fff !important;
+	font-weight: 600;
+}
+.fa-bars
+{
+	color: #fff;
+	font-size: 30px !important;
+}
+.navbar-toggler
+{
+	outline: none !important;
+}
+.nav-link
+{
+	transition: 0.5s;
+	border-radius: 10px;
+	font-family: sans-serif;
+}
+.nav-link:hover
+{
+	text-decoration: underline;
+	background-color: #C7781D;
+	border-bottom: 2px solid white;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
